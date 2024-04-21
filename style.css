@@ -42,3 +42,11 @@ body{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+/*POSITIONING AND STYLE*/
+main{
+    margin: 50px auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
