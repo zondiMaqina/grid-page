@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: 0;
     font-family: sans-serif;
+    text-decoration: none;
 }
 
 /*COLORS*/
 body{
     background:  hsl(218, 22%, 67%);
+    padding: 10px;
 }
 
 .top-content{
@@ -40,21 +42,18 @@ body{
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: goldenrod; 
+    font-size: 16px;
 }
 
 /*POSITIONING AND STYLE*/
-main{
+.body{
     margin: 50px auto;
     max-width: 600px;
     display: grid;
     grid-template-columns: 1fr;
     flex-direction: column;
-}
-
-.bottom-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    border-radius: 20px;
 }
 
 .top-content{
@@ -69,4 +68,55 @@ main{
     flex-direction: column;
     gap: 8px; 
     color: rgba(116, 111, 111, 0.788);
+}
+
+.bottom-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+
+.left-content .span{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.price{
+    font-size: 25px;
+}
+
+.span span:nth-child(2){
+    color: rgba(255, 255, 255, 0.459);
+}
+
+.details{
+    margin-top: 8px;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-color: hsl(71, 73%, 54%);
+}
+
+.right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.right-content p{
+    color: rgba(255, 255, 255, 0.63);
+    line-height: 23px;
 }
