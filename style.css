@@ -46,7 +46,27 @@ body{
 /*POSITIONING AND STYLE*/
 main{
     margin: 50px auto;
-    width: fit-content;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-direction: column;
+}
+
+.bottom-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.top-content{
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+
+.top-content div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+    color: rgba(116, 111, 111, 0.788);
 }
