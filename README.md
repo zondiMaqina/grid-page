@@ -11,3 +11,5 @@ This project will focus on reflecting on my CSS and HTML skills
 This Project is to help me improve my positioning skills.
 
 ## Challenges
+
+No challenges met
