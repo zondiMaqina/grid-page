@@ -2,8 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    font-family: sans-serif;
 }
 
+/*COLORS*/
+body{
+    background:  hsl(218, 22%, 67%);
+}
+
+.top-content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-content{
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+}
+
+.right-content{
+    background-color: hsla(179, 62%, 43%, 0.575);
+    color: white;
+}
+
+.title{
+    color: hsl(179, 62%, 43%);
+}
+
+.heading{
+    color:  hsl(71, 73%, 54%);
+}
 
 .attribution { 
     font-size: 11px; 
