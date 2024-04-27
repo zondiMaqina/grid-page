@@ -60,7 +60,7 @@ footer{
 
 /*POSITIONING AND STYLE*/
 .body{
-    margin: 50px auto;
+    margin: 150px auto;
     max-width: 600px;
     display: grid;
     grid-template-columns: 1fr;
