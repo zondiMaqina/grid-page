@@ -8,24 +8,29 @@
 
 /*COLORS*/
 body{
-    background:  hsl(218, 22%, 67%);
     padding: 10px;
+    max-height: 90vh;
+    background-color: lightgray;
 }
 
 .top-content{
     background-color: white;
     display: flex;
     flex-direction: column;
+    border-radius: 20px 20px 0 0;
 }
 
 .left-content{
     background-color: hsl(179, 62%, 43%);
     color: white;
+    border-radius: 0 0 0 20px ;
+
 }
 
 .right-content{
     background-color: hsla(179, 62%, 43%, 0.575);
     color: white;
+    border-radius: 0 0 20px 0;
 }
 
 .title{
@@ -36,14 +41,23 @@ body{
     color:  hsl(71, 73%, 54%);
 }
 
+footer{
+    width: 100%;
+    background-color: hsla(179, 62%, 43%, 0.575);
+    padding: 20px;
+    position: relative;
+    bottom: -55px;
+}
+
 .attribution { 
-    font-size: 11px; 
+    font-size: 18px; 
     text-align: center; 
 }
 
 .attribution a { 
     color: goldenrod; 
     font-size: 16px;
+    font-weight: bolder;
 }
 
 /*POSITIONING AND STYLE*/
