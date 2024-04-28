@@ -8,8 +8,12 @@
 
 /*COLORS*/
 body{
-    max-height: 90vh;
-    background-color: lightgray;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(208, 45%, 94%);
 }
 
 .top-content{
